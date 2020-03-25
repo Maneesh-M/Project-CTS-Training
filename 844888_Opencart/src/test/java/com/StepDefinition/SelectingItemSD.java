@@ -7,7 +7,7 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
 public class SelectingItemSD {
-
+	//Creating object for the page class
 	SelectingItem s= new SelectingItem();
 
 	@Given("^the user launched the chrome browser$")
@@ -19,19 +19,19 @@ public class SelectingItemSD {
 
 	@When("^the user opens the Opencart homepage and login$")
 	public void the_user_opens_the_Opencart_homepage_and_login() throws Throwable {
-		// Write code here that turns the phrase above into concrete actions
+		// Loading the homepage
 		s.Homepage();
 	}
 
 	@Then("^the user select desktop$")
 	public void the_user_select_desktop() throws Throwable {
-		// Write code here that turns the phrase above into concrete actions
+		//Selecting desktop
 		s.selectdesktop();
 	}
 
 	@Then("^the user select on the item$")
 	public void the_user_select_on_the_item() throws Throwable {
-		// Write code here that turns the phrase above into concrete actions
+		// Selecting the product
 		s.pdct();
 		Thread.sleep(3000);
 		s.screenshot("src\\test\\resources\\Screenshot\\shot1.png");

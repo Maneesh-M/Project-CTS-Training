@@ -13,6 +13,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 public class WritingToExcel {
 
 	@SuppressWarnings("resource")
+	//Method to write in excel
 	public void wr_excel(int r, int c, String data) {
 		String filename = "C:\\Users\\maneesh\\eclipse-workspace\\844888_Opencart\\src/test/resources\\Testdata\\exceloc.xlsx";
 		String sheetname = "Sheet1";

@@ -7,29 +7,30 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
 public class ShowCountSD {
+	//Creating object for the page class
 	ShowCount sc=new ShowCount();
 
 	@Given("^the user launched the chromebrowser$")
 	public void the_user_launched_the_chromebrowser() throws Throwable {
-		// Write code here that turns the phrase above into concrete actions
+		// Launching the application
 		sc.url();
 	}
 
 	@When("^the user opens the Opencart application$")
 	public void the_user_opens_the_Opencart_application() throws Throwable {
-		// Write code here that turns the phrase above into concrete actions
+		// Loading home page
 		sc.Homepage();
 	}
 
 	@Then("^the user select desktop icon$")
 	public void the_user_select_desktop_icon() throws Throwable {
-		// Write code here that turns the phrase above into concrete actions
+		// Selecting desktop tab
 		sc.selectdesktop();
 	}
 
 	@Then("^the user selects the number$")
 	public void the_user_selects_the_number() throws Throwable {
-		// Write code here that turns the phrase above into concrete actions
+		// To select Quantity and take screenshot
 		sc.showcount();
 		Thread.sleep(3000);
 		sc.screenshot("src\\test\\resources\\Screenshot\\shot2.png");

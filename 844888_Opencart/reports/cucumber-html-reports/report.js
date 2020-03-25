@@ -50,28 +50,28 @@ formatter.match({
   "location": "WishlistSD.the_user_launched_the_chrome_webbrowser()"
 });
 formatter.result({
-  "duration": 8124301000,
+  "duration": 7853703600,
   "status": "passed"
 });
 formatter.match({
   "location": "WishlistSD.the_user_opens_the_OpenCart_page()"
 });
 formatter.result({
-  "duration": 7190305900,
+  "duration": 4042919200,
   "status": "passed"
 });
 formatter.match({
   "location": "WishlistSD.the_user_select_desktop_buttonclick()"
 });
 formatter.result({
-  "duration": 3303375700,
+  "duration": 20279774600,
   "status": "passed"
 });
 formatter.match({
   "location": "WishlistSD.the_item_to_wishlist()"
 });
 formatter.result({
-  "duration": 12200420400,
+  "duration": 16909688200,
   "status": "passed"
 });
 });
