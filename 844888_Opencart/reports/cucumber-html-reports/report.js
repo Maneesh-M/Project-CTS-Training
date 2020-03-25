@@ -13,65 +13,65 @@ formatter.feature({
   ]
 });
 formatter.scenario({
-  "line": 41,
+  "line": 5,
   "name": "",
-  "description": "adding to wishlist",
+  "description": "select an item in desktop",
   "id": "opencart-application;",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 40,
-      "name": "@TC05_Storetowishlist"
+      "line": 4,
+      "name": "@TC01_Selectingitem"
     }
   ]
 });
 formatter.step({
-  "line": 44,
-  "name": "the user launched the chrome webbrowser",
+  "line": 8,
+  "name": "the user launched the chrome browser",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 45,
-  "name": "the user opens the OpenCart page",
+  "line": 9,
+  "name": "the user opens the Opencart homepage and login",
   "keyword": "When "
 });
 formatter.step({
-  "line": 46,
-  "name": "the user select desktop buttonclick",
+  "line": 10,
+  "name": "the user select desktop",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 47,
-  "name": "the item to wishlist",
+  "line": 11,
+  "name": "the user select on the item",
   "keyword": "And "
 });
 formatter.match({
-  "location": "WishlistSD.the_user_launched_the_chrome_webbrowser()"
+  "location": "SelectingItemSD.the_user_launched_the_chrome_browser()"
 });
 formatter.result({
-  "duration": 5947465000,
+  "duration": 8961889200,
   "status": "passed"
 });
 formatter.match({
-  "location": "WishlistSD.the_user_opens_the_OpenCart_page()"
+  "location": "SelectingItemSD.the_user_opens_the_Opencart_homepage_and_login()"
 });
 formatter.result({
-  "duration": 7415996500,
+  "duration": 17144505300,
   "status": "passed"
 });
 formatter.match({
-  "location": "WishlistSD.the_user_select_desktop_buttonclick()"
+  "location": "SelectingItemSD.the_user_select_desktop()"
 });
 formatter.result({
-  "duration": 3327370600,
+  "duration": 3278799700,
   "status": "passed"
 });
 formatter.match({
-  "location": "WishlistSD.the_item_to_wishlist()"
+  "location": "SelectingItemSD.the_user_select_on_the_item()"
 });
 formatter.result({
-  "duration": 11425830300,
+  "duration": 16762424200,
   "status": "passed"
 });
 });

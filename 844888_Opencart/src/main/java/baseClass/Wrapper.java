@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class Wrapper {
-	public static WebDriver driver;
+	public WebDriver driver;
 	public void launchBrowser(String browser) throws IOException{
 		
 		if(browser.equalsIgnoreCase("chrome")){

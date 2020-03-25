@@ -16,14 +16,13 @@ import baseClass.Wrapper;
 
 public class SelectingItem extends Wrapper {
 
-	WebDriver driver;
 	By desktop=By.xpath("//*[@id=\"menu\"]/div[2]/ul/li[1]/a");
 	By all=By.xpath("//*[@id=\"menu\"]/div[2]/ul/li[1]/div/a");
 	By pdt=By.xpath("//*[@id=\"content\"]/div[4]/div[1]/div/div[1]/a/img");
 	
 	public void url() throws IOException, InterruptedException{ 
 		launchBrowser("chrome");
-		Thread.sleep(5000);
+		Thread.sleep(2000);
 	}
 	
 	public void Homepage(){

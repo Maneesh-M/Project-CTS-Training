@@ -14,18 +14,16 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
-public class ShowCount {
+import baseClass.Wrapper;
 
-	WebDriver driver;
+public class ShowCount extends Wrapper {
+
 	By desktop=By.xpath("//*[@id=\"menu\"]/div[2]/ul/li[1]/a");
 	By all=By.xpath("//*[@id=\"menu\"]/div[2]/ul/li[1]/div/a");
 	By count=By.xpath("//*[@id=\"input-limit\"]");
 	
-	public void url(){ 
-		System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\Driver\\chromedriver_v80.exe");
-		driver = new ChromeDriver();
-		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+	public void url() throws IOException{ 
+	launchBrowser("chrome");	
 	}
 	
 	public void Homepage(){
