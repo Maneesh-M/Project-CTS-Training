@@ -11,20 +11,18 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import baseClass.Wrapper;
 import excelutility.WritingToExcel;
 
-public class StoretoExcel {
+public class StoretoExcel extends Wrapper{
 
-	WebDriver driver;
 	By desktop=By.xpath("//*[@id=\"menu\"]/div[2]/ul/li[1]/a");
 	By all=By.xpath("//*[@id=\"menu\"]/div[2]/ul/li[1]/div/a");
 	By pdt=By.xpath("//*[@id=\"content\"]/div[4]/div[6]/div/div[1]/a/img");
 	
-	public void url(){
-		System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\Driver\\chromedriver_v80.exe");
-		driver = new ChromeDriver();
-		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+	public void url() throws IOException, InterruptedException{
+		launchBrowser("chrome");
+		Thread.sleep(2000);
 	}
 	
 	public void Homepage(){

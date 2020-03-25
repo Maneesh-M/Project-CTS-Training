@@ -18,8 +18,9 @@ public class ShowCount extends Wrapper {
 	By all=By.xpath("//*[@id=\"menu\"]/div[2]/ul/li[1]/div/a");
 	By count=By.xpath("//*[@id=\"input-limit\"]");
 	
-	public void url() throws IOException{ 
-	launchBrowser("chrome");	
+	public void url() throws IOException, InterruptedException{ 
+	launchBrowser("chrome");
+	Thread.sleep(2000);
 	}
 	
 	public void Homepage(){
