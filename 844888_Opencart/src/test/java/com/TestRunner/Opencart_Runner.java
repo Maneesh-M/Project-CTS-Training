@@ -9,11 +9,10 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		features = "src\\main\\resources\\Featurefolder\\project.feature",
 		plugin = {"pretty", "html:reports/cucumber-html-reports"},
-		tags = {"@TC04_Storetoexcelsheet"},
+		tags = {"@TC01_Selectingitem,@TC02_Shownumber,@TC03_Sorting,@TC04_Storetoexcelsheet,@TC05_Storetowishlist"},
 		glue = {"com.StepDefinition"},
 		monochrome = true
 		)
-
-public class StoretoExcelTR {
+public class Opencart_Runner {  
 
 }

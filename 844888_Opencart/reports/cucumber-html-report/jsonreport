@@ -1,0 +1,57 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "select an item in desktop",
+        "id": "opencart-application;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "line": 8,
+            "name": "the user launched the chrome browser",
+            "match": {
+              "location": "SelectingItemSD.the_user_launched_the_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "line": 9,
+            "name": "the user opens the Opencart homepage and login",
+            "keyword": "When "
+          },
+          {
+            "line": 10,
+            "name": "the user select desktop",
+            "keyword": "Then "
+          },
+          {
+            "line": 11,
+            "name": "the user select on the item",
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@TC01_Selectingitem"
+          }
+        ]
+      }
+    ],
+    "name": "OpenCart Application",
+    "description": "",
+    "id": "opencart-application",
+    "keyword": "Feature",
+    "uri": "src/main/resources/Featurefolder/project.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@project_Feature"
+      }
+    ]
+  }
+]

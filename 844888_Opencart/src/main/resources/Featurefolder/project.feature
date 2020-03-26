@@ -1,7 +1,7 @@
 @project_Feature
 Feature: OpenCart Application
 
-@TC01_Selectingitem
+  @TC01_Selectingitem
   Scenario: 
     select an item in desktop
 
@@ -10,7 +10,7 @@ Feature: OpenCart Application
     Then the user select desktop
     And the user select on the item
 
-@TC02_Shownumber
+  @TC02_Shownumber
   Scenario: 
     select the number of items to be shown
 
@@ -19,7 +19,7 @@ Feature: OpenCart Application
     Then the user select desktop icon
     And the user selects the number
 
-@TC03_Sorting
+  @TC03_Sorting
   Scenario: 
     sorting the number of elements
 
@@ -28,16 +28,16 @@ Feature: OpenCart Application
     Then the user select desktop iccon
     And the user selects the type of sorting
 
-@TC04_Storetoexcelsheet
+  @TC04_Storetoexcelsheet
   Scenario: 
     storing the details to excell sheet
 
-    Given the user launched the browser 
+    Given the user launched the browser
     When the user opens the Opencart webpage
     Then the user select desktop button
     And the user adds the details of items to excelsheet
 
-@TC05_Storetowishlist
+  @TC05_Storetowishlist
   Scenario: 
     adding to wishlist
 
