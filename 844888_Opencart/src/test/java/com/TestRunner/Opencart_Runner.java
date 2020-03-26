@@ -21,7 +21,7 @@ public class Opencart_Runner {
 	@AfterClass
 	  public static void extendReport() 
 	{
-	      Reporter.loadXMLConfig("src/test/resources/extent-config.xml");
+	      Reporter.loadXMLConfig("C:\\Users\\maneesh\\git\\Project-CTS-Training\\844888_Opencart\\src\\test\\resources\\extent-config.xml");
 	      Reporter.setSystemInfo("user", System.getProperty("user.name"));
 	      Reporter.setSystemInfo("os", "Windows");
 	      Reporter.setTestRunnerOutput("Sample test runner output message");
