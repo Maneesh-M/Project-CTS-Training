@@ -30,14 +30,15 @@ public class StoretoExcel extends Wrapper{
 	}
 
 //Selecting desktop tab
-	public void selectdesktop(){
+	public void selectdesktop() throws InterruptedException{
 		driver.findElement(desktop).click();
 		driver.findElement(all).click();
+		Thread.sleep(2000);
+		driver.findElement(pdt).click();
 	}
 	
 //Writing to Excel
 	public void exceldata(){
-		driver.findElement(pdt).click();
 		String a=driver.findElement(By.xpath("//*[@id=\"tab-description\"]/div/div/p[2]")).getText();
 		//Creating object for excel Class
 		WritingToExcel e=new WritingToExcel();

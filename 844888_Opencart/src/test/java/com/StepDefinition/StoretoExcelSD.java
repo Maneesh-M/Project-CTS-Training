@@ -26,6 +26,8 @@ public class StoretoExcelSD {
 	public void the_user_select_desktop_button() throws Throwable {
 		// Selecting desktop tab
 		se.selectdesktop();
+		Thread.sleep(2000);
+		se.screenshot("src\\test\\resources\\Screenshot\\shot4.png");
 	}
 
 	@Then("^the user adds the details of items to excelsheet$")
