@@ -13,13 +13,13 @@ public class SortingSD {
 	@Given("^the user launched the chrome$")
 	public void the_user_launched_the_chrome() throws Throwable {
 		// Launching the application
-		sg.url();
+		sg.launchApplication();
 	}
 
 	@When("^the user opens the Opencart page$")
 	public void the_user_opens_the_Opencart_page() throws Throwable {
-		//oading home page
-		sg.Homepage();
+		//Loading home page
+		sg.url();
 	}
 
 	@Then("^the user select desktop iccon$")

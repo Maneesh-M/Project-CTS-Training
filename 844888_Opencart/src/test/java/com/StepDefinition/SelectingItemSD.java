@@ -13,14 +13,14 @@ public class SelectingItemSD {
 	@Given("^the user launched the chrome browser$")
 	public void the_user_launched_the_chrome_browser() throws Throwable {
 		//To launch the browser
-		s.url();
+		s.launchApplication();
 
 	}
 
 	@When("^the user opens the Opencart homepage and login$")
 	public void the_user_opens_the_Opencart_homepage_and_login() throws Throwable {
 		// Loading the homepage
-		s.Homepage();
+		s.Url();
 	}
 
 	@Then("^the user select desktop$")

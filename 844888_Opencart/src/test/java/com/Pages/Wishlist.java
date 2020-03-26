@@ -26,19 +26,19 @@ public class Wishlist extends Wrapper {
 	By wishl=By.xpath("(//span[@class='hidden-xs hidden-sm hidden-md'])[4]");
 
 //To Launch the application
-	public void url() throws IOException, InterruptedException { 
+	public void launchApplication() throws IOException, InterruptedException { 
 		//Launching chrome browser
 		launchBrowser("chrome");
 		Thread.sleep(2000);
 	}
 	
 //To load the site
-	public void Homepage() {
+	public void url() {
 		driver.get("http://opencart.abstracta.us/");
 		System.out.println(driver.getTitle());
 	}
 	
-//Logging in
+//Logging in to the account
 	public void loginuser() throws InterruptedException {
 		driver.findElement(account).click();
 		Thread.sleep(1000);

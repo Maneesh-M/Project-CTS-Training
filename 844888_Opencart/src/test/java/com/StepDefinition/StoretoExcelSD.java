@@ -13,13 +13,13 @@ public class StoretoExcelSD {
 	@Given("^the user launched the browser$")
 	public void the_user_launched_the_browser() throws Throwable {
 		// Launch the application
-		se.url();
+		se.launchApplication();
 	}
 
 	@When("^the user opens the Opencart webpage$")
 	public void the_user_opens_the_Opencart_webpage() throws Throwable {
 		// To load web page
-		se.Homepage();
+		se.url();
 	}
 
 	@Then("^the user select desktop button$")

@@ -13,13 +13,13 @@ public class ShowCountSD {
 	@Given("^the user launched the chromebrowser$")
 	public void the_user_launched_the_chromebrowser() throws Throwable {
 		// Launching the application
-		sc.url();
+		sc.launchApplication();
 	}
 
 	@When("^the user opens the Opencart application$")
 	public void the_user_opens_the_Opencart_application() throws Throwable {
 		// Loading home page
-		sc.Homepage();
+		sc.url();
 	}
 
 	@Then("^the user select desktop icon$")

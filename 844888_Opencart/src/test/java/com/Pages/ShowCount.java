@@ -19,14 +19,14 @@ public class ShowCount extends Wrapper {
 	By count=By.xpath("//*[@id=\"input-limit\"]");
 
 //To launch the application
-	public void url() throws IOException, InterruptedException{ 
+	public void launchApplication() throws IOException, InterruptedException{ 
 	//To launch chrome browser
 	launchBrowser("chrome");
 	Thread.sleep(2000);
 	}
 	
 //To load web page
-	public void Homepage(){
+	public void url(){
 		//To go to the site 
 		driver.get("http://opencart.abstracta.us/");
 		System.out.println(driver.getTitle());

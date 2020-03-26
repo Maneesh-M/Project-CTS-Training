@@ -20,14 +20,14 @@ public class Sorting extends Wrapper {
 	By sort=By.xpath("//*[@id=\"input-sort\"]");
 
 //Launching the application
-	public void url() throws IOException, InterruptedException { 
+	public void launchApplication() throws IOException, InterruptedException { 
 		//Launch chrome browser
 		launchBrowser("chrome");
 		Thread.sleep(2000);
 	}
 
 //Load web page
-	public void Homepage() {
+	public void url() {
 		//To go to the site
 		driver.get("http://opencart.abstracta.us/");
 		System.out.println(driver.getTitle());

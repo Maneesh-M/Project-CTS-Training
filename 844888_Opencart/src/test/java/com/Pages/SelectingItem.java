@@ -15,14 +15,14 @@ public class SelectingItem extends Wrapper {
 	By pdt=By.xpath("//*[@id=\"content\"]/div[4]/div[1]/div/div[1]/a/img");
 	
 //To launch the application
-	public void url() throws IOException, InterruptedException{ 
+	public void launchApplication() throws IOException, InterruptedException{ 
 		//To launch chrome browser
 		launchBrowser("chrome");
 		Thread.sleep(2000);
 	}
 	
 //To load web page
-	public void Homepage(){
+	public void Url(){
 		//To go to the site
 		driver.get("http://opencart.abstracta.us/");
 		System.out.println(driver.getTitle());

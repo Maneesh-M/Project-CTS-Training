@@ -13,13 +13,13 @@ public class WishlistSD {
 	@Given("^the user launched the chrome webbrowser$")
 	public void the_user_launched_the_chrome_webbrowser() throws Throwable {
 		// Launching the application
-		wl.url();
+		wl.launchApplication();
 	}
 
 	@When("^the user opens the OpenCart page$")
 	public void the_user_opens_the_OpenCart_page() throws Throwable {
 		// Loading home page
-		wl.Homepage();
+		wl.url();
 	}
 
 	@Then("^the user select desktop buttonclick$")
