@@ -29,7 +29,7 @@ public class Sorting extends Wrapper {
 //Load web page
 	public void Homepage() {
 		//To go to the site
-		driver.get("https://demo.opencart.com/");
+		driver.get("http://opencart.abstracta.us/");
 		System.out.println(driver.getTitle());
 	}
 

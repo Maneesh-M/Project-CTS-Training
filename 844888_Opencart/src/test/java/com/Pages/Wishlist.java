@@ -12,6 +12,8 @@ public class Wishlist extends Wrapper {
 //Defining web elements
 	By account=By.xpath("(//a[@class='dropdown-toggle'])[1]");
 	By login=By.xpath("//a[contains(text(),'Login')]");
+	By advanced=By.xpath("//*[@id=\"details-button\"]");
+	By proceed=By.xpath("//*[@id=\"proceed-link\"]");
 	By uname=By.xpath("//input[@name='email']");
 	By passwd=By.xpath("//input[@name='password']");
 	By button=By.xpath("//input[@value='Login']");
@@ -32,7 +34,7 @@ public class Wishlist extends Wrapper {
 	
 //To load the site
 	public void Homepage() {
-		driver.get("https://demo.opencart.com/");
+		driver.get("http://opencart.abstracta.us/");
 		System.out.println(driver.getTitle());
 	}
 	
@@ -42,9 +44,13 @@ public class Wishlist extends Wrapper {
 		Thread.sleep(1000);
 		driver.findElement(login).click();
 		Thread.sleep(2000);
-		driver.findElement(uname).sendKeys("mansh@gmail.com");
+		driver.findElement(advanced).click();
+		Thread.sleep(2000);
+		driver.findElement(proceed).click();
+		Thread.sleep(3000);
+		driver.findElement(uname).sendKeys("mp2@gmail.com");
 		Thread.sleep(1000);
-		driver.findElement(passwd).sendKeys("maneesh123");
+		driver.findElement(passwd).sendKeys("passwopd");
 		Thread.sleep(1000);
 		driver.findElement(button).click();
 		Thread.sleep(3000);

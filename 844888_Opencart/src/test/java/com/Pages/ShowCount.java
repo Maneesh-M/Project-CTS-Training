@@ -14,8 +14,8 @@ import baseClass.Wrapper;
 
 public class ShowCount extends Wrapper {
 //Defining web elements
-	By desktop=By.xpath("//*[@id=\"menu\"]/div[2]/ul/li[1]/a");
-	By all=By.xpath("//*[@id=\"menu\"]/div[2]/ul/li[1]/div/a");
+	By desktop=By.xpath("(//a[@class='dropdown-toggle'])[2]");
+	By all=By.xpath("//a[@class='see-all']");
 	By count=By.xpath("//*[@id=\"input-limit\"]");
 
 //To launch the application
@@ -28,7 +28,7 @@ public class ShowCount extends Wrapper {
 //To load web page
 	public void Homepage(){
 		//To go to the site 
-		driver.get("https://demo.opencart.com/");
+		driver.get("http://opencart.abstracta.us/");
 		System.out.println(driver.getTitle());
 	}
 	
