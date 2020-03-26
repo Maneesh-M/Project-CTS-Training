@@ -4,14 +4,18 @@
     "elements": [
       {
         "line": 5,
-        "name": "",
-        "description": "select an item in desktop",
-        "id": "opencart-application;",
+        "name": "select an item in desktop",
+        "description": "",
+        "id": "opencart-application;select-an-item-in-desktop",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
-            "line": 8,
+            "result": {
+              "duration": 7479047500,
+              "status": "passed"
+            },
+            "line": 6,
             "name": "the user launched the chrome browser",
             "match": {
               "location": "SelectingItemSD.the_user_launched_the_chrome_browser()"
@@ -19,18 +23,39 @@
             "keyword": "Given "
           },
           {
-            "line": 9,
+            "result": {
+              "duration": 6363670300,
+              "status": "passed"
+            },
+            "line": 7,
             "name": "the user opens the Opencart homepage and login",
+            "match": {
+              "location": "SelectingItemSD.the_user_opens_the_Opencart_homepage_and_login()"
+            },
             "keyword": "When "
           },
           {
-            "line": 10,
+            "result": {
+              "duration": 3284405200,
+              "status": "passed"
+            },
+            "line": 8,
             "name": "the user select desktop",
+            "match": {
+              "location": "SelectingItemSD.the_user_select_desktop()"
+            },
             "keyword": "Then "
           },
           {
-            "line": 11,
+            "result": {
+              "duration": 11579011600,
+              "status": "passed"
+            },
+            "line": 9,
             "name": "the user select on the item",
+            "match": {
+              "location": "SelectingItemSD.the_user_select_on_the_item()"
+            },
             "keyword": "And "
           }
         ],
@@ -38,6 +63,262 @@
           {
             "line": 4,
             "name": "@TC01_Selectingitem"
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "select the number of items to be shown",
+        "description": "",
+        "id": "opencart-application;select-the-number-of-items-to-be-shown",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5867857800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user launched the chromebrowser",
+            "match": {
+              "location": "ShowCountSD.the_user_launched_the_chromebrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6151177400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user opens the Opencart application",
+            "match": {
+              "location": "ShowCountSD.the_user_opens_the_Opencart_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3130150600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user select desktop icon",
+            "match": {
+              "location": "ShowCountSD.the_user_select_desktop_icon()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8023210400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the user selects the number",
+            "match": {
+              "location": "ShowCountSD.the_user_selects_the_number()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@TC02_Shownumber"
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "sorting the number of elements",
+        "description": "",
+        "id": "opencart-application;sorting-the-number-of-elements",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5859342000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the user launched the chrome",
+            "match": {
+              "location": "SortingSD.the_user_launched_the_chrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7864965400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the user opens the Opencart page",
+            "match": {
+              "location": "SortingSD.the_user_opens_the_Opencart_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2944823600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the user select desktop iccon",
+            "match": {
+              "location": "SortingSD.the_user_select_desktop_iccon()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8233258800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the user selects the type of sorting",
+            "match": {
+              "location": "SortingSD.the_user_selects_the_type_of_sorting()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 18,
+            "name": "@TC03_Sorting"
+          }
+        ]
+      },
+      {
+        "line": 26,
+        "name": "storing the details to excell sheet",
+        "description": "",
+        "id": "opencart-application;storing-the-details-to-excell-sheet",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5849567000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "the user launched the browser",
+            "match": {
+              "location": "StoretoExcelSD.the_user_launched_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5999695700,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the user opens the Opencart webpage",
+            "match": {
+              "location": "StoretoExcelSD.the_user_opens_the_Opencart_webpage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2814622400,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "the user select desktop button",
+            "match": {
+              "location": "StoretoExcelSD.the_user_select_desktop_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10594964500,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "the user adds the details of items to excelsheet",
+            "match": {
+              "location": "StoretoExcelSD.the_user_adds_the_details_of_items_to_excelsheet()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 25,
+            "name": "@TC04_Storetoexcelsheet"
+          }
+        ]
+      },
+      {
+        "line": 33,
+        "name": "adding to wishlist",
+        "description": "",
+        "id": "opencart-application;adding-to-wishlist",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5728277100,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "the user launched the chrome webbrowser",
+            "match": {
+              "location": "WishlistSD.the_user_launched_the_chrome_webbrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3999286700,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "the user opens the OpenCart page",
+            "match": {
+              "location": "WishlistSD.the_user_opens_the_OpenCart_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 18748603800,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "the user select desktop buttonclick",
+            "match": {
+              "location": "WishlistSD.the_user_select_desktop_buttonclick()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15360842600,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "the item to wishlist",
+            "match": {
+              "location": "WishlistSD.the_item_to_wishlist()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 32,
+            "name": "@TC05_Storetowishlist"
           }
         ]
       }

@@ -74,6 +74,12 @@
 		<dependency>
 			<groupId>com.aventstack</groupId>
 			<artifactId>extentreports</artifactId>
+			<version>4.0.8</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
 			<version>3.1.2</version>
 		</dependency>
 		<dependency>
@@ -81,6 +87,6 @@
 			<artifactId>cucumber-extentsreport</artifactId>
 			<version>3.0.2</version>
 		</dependency>
-		
+
 	</dependencies>
 </project>
