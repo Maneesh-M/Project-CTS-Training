@@ -50,28 +50,28 @@ formatter.match({
   "location": "SelectingItemSD.the_user_launched_the_chrome_browser()"
 });
 formatter.result({
-  "duration": 7479047500,
+  "duration": 7915184300,
   "status": "passed"
 });
 formatter.match({
   "location": "SelectingItemSD.the_user_opens_the_Opencart_homepage_and_login()"
 });
 formatter.result({
-  "duration": 6363670300,
+  "duration": 2782584700,
   "status": "passed"
 });
 formatter.match({
   "location": "SelectingItemSD.the_user_select_desktop()"
 });
 formatter.result({
-  "duration": 3284405200,
+  "duration": 3337747800,
   "status": "passed"
 });
 formatter.match({
   "location": "SelectingItemSD.the_user_select_on_the_item()"
 });
 formatter.result({
-  "duration": 11579011600,
+  "duration": 10175471800,
   "status": "passed"
 });
 formatter.scenario({
@@ -112,28 +112,28 @@ formatter.match({
   "location": "ShowCountSD.the_user_launched_the_chromebrowser()"
 });
 formatter.result({
-  "duration": 5867857800,
+  "duration": 5728720200,
   "status": "passed"
 });
 formatter.match({
   "location": "ShowCountSD.the_user_opens_the_Opencart_application()"
 });
 formatter.result({
-  "duration": 6151177400,
+  "duration": 2735106600,
   "status": "passed"
 });
 formatter.match({
   "location": "ShowCountSD.the_user_select_desktop_icon()"
 });
 formatter.result({
-  "duration": 3130150600,
+  "duration": 3463755700,
   "status": "passed"
 });
 formatter.match({
   "location": "ShowCountSD.the_user_selects_the_number()"
 });
 formatter.result({
-  "duration": 8023210400,
+  "duration": 9040329800,
   "status": "passed"
 });
 formatter.scenario({
@@ -174,28 +174,28 @@ formatter.match({
   "location": "SortingSD.the_user_launched_the_chrome()"
 });
 formatter.result({
-  "duration": 5859342000,
+  "duration": 5831375000,
   "status": "passed"
 });
 formatter.match({
   "location": "SortingSD.the_user_opens_the_Opencart_page()"
 });
 formatter.result({
-  "duration": 7864965400,
+  "duration": 4120799600,
   "status": "passed"
 });
 formatter.match({
   "location": "SortingSD.the_user_select_desktop_iccon()"
 });
 formatter.result({
-  "duration": 2944823600,
+  "duration": 2598865600,
   "status": "passed"
 });
 formatter.match({
   "location": "SortingSD.the_user_selects_the_type_of_sorting()"
 });
 formatter.result({
-  "duration": 8233258800,
+  "duration": 8009541600,
   "status": "passed"
 });
 formatter.scenario({
@@ -236,28 +236,28 @@ formatter.match({
   "location": "StoretoExcelSD.the_user_launched_the_browser()"
 });
 formatter.result({
-  "duration": 5849567000,
+  "duration": 5769091300,
   "status": "passed"
 });
 formatter.match({
   "location": "StoretoExcelSD.the_user_opens_the_Opencart_webpage()"
 });
 formatter.result({
-  "duration": 5999695700,
+  "duration": 2705422200,
   "status": "passed"
 });
 formatter.match({
   "location": "StoretoExcelSD.the_user_select_desktop_button()"
 });
 formatter.result({
-  "duration": 2814622400,
+  "duration": 4059477800,
   "status": "passed"
 });
 formatter.match({
   "location": "StoretoExcelSD.the_user_adds_the_details_of_items_to_excelsheet()"
 });
 formatter.result({
-  "duration": 10594964500,
+  "duration": 8560026200,
   "status": "passed"
 });
 formatter.scenario({
@@ -298,28 +298,28 @@ formatter.match({
   "location": "WishlistSD.the_user_launched_the_chrome_webbrowser()"
 });
 formatter.result({
-  "duration": 5728277100,
+  "duration": 5870505200,
   "status": "passed"
 });
 formatter.match({
   "location": "WishlistSD.the_user_opens_the_OpenCart_page()"
 });
 formatter.result({
-  "duration": 3999286700,
+  "duration": 2902666700,
   "status": "passed"
 });
 formatter.match({
   "location": "WishlistSD.the_user_select_desktop_buttonclick()"
 });
 formatter.result({
-  "duration": 18748603800,
+  "duration": 19642515500,
   "status": "passed"
 });
 formatter.match({
   "location": "WishlistSD.the_item_to_wishlist()"
 });
 formatter.result({
-  "duration": 15360842600,
+  "duration": 15109503000,
   "status": "passed"
 });
 });

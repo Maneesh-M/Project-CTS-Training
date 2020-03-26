@@ -19,7 +19,7 @@ public class Wishlist extends Wrapper {
 	
 	By desktop=By.xpath("(//a[@class='dropdown-toggle'])[2]");
 	By all=By.xpath("//*[@id=\"menu\"]/div[2]/ul/li[1]/div/a");
-	By pdt=By.xpath("//*[@id=\"content\"]/div[4]/div[6]/div/div[1]/a/img");
+	By pdt=By.xpath("//*[@id=\"content\"]/div[4]/div[8]/div/div[1]/a/img");
 	By wlist=By.xpath("//*[@id=\"content\"]/div/div[2]/div[1]/button[1]/i");
 	By wishl=By.xpath("(//span[@class='hidden-xs hidden-sm hidden-md'])[4]");
 
