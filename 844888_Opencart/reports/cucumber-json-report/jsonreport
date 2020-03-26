@@ -12,49 +12,49 @@
         "steps": [
           {
             "result": {
-              "duration": 7341592300,
+              "duration": 6925825500,
               "status": "passed"
             },
             "line": 6,
             "name": "the user launched the chrome browser",
             "match": {
-              "location": "SelectingItemSD.the_user_launched_the_chrome_browser()"
+              "location": "SelectingItem_StepDef.the_user_launched_the_chrome_browser()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 4928483400,
+              "duration": 10772826300,
               "status": "passed"
             },
             "line": 7,
             "name": "the user opens the Opencart homepage and login",
             "match": {
-              "location": "SelectingItemSD.the_user_opens_the_Opencart_homepage_and_login()"
+              "location": "SelectingItem_StepDef.the_user_opens_the_Opencart_homepage_and_login()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 2564296300,
+              "duration": 3259492499,
               "status": "passed"
             },
             "line": 8,
             "name": "the user select desktop",
             "match": {
-              "location": "SelectingItemSD.the_user_select_desktop()"
+              "location": "SelectingItem_StepDef.the_user_select_desktop()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 9630432301,
+              "duration": 11323723601,
               "status": "passed"
             },
             "line": 9,
             "name": "the user select on the item",
             "match": {
-              "location": "SelectingItemSD.the_user_select_on_the_item()"
+              "location": "SelectingItem_StepDef.the_user_select_on_the_item()"
             },
             "keyword": "And "
           }
@@ -76,49 +76,49 @@
         "steps": [
           {
             "result": {
-              "duration": 5757801201,
+              "duration": 5623325900,
               "status": "passed"
             },
             "line": 13,
             "name": "the user launched the chromebrowser",
             "match": {
-              "location": "ShowCountSD.the_user_launched_the_chromebrowser()"
+              "location": "ShowCount_StepDef.the_user_launched_the_chromebrowser()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 4662473399,
+              "duration": 8273413201,
               "status": "passed"
             },
             "line": 14,
             "name": "the user opens the Opencart application",
             "match": {
-              "location": "ShowCountSD.the_user_opens_the_Opencart_application()"
+              "location": "ShowCount_StepDef.the_user_opens_the_Opencart_application()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 2215968700,
+              "duration": 3736475300,
               "status": "passed"
             },
             "line": 15,
             "name": "the user select desktop icon",
             "match": {
-              "location": "ShowCountSD.the_user_select_desktop_icon()"
+              "location": "ShowCount_StepDef.the_user_select_desktop_icon()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 6642050701,
+              "duration": 6396285401,
               "status": "passed"
             },
             "line": 16,
             "name": "the user selects the number",
             "match": {
-              "location": "ShowCountSD.the_user_selects_the_number()"
+              "location": "ShowCount_StepDef.the_user_selects_the_number()"
             },
             "keyword": "And "
           }
@@ -140,49 +140,49 @@
         "steps": [
           {
             "result": {
-              "duration": 5690049100,
+              "duration": 5692455501,
               "status": "passed"
             },
             "line": 20,
             "name": "the user launched the chrome",
             "match": {
-              "location": "SortingSD.the_user_launched_the_chrome()"
+              "location": "Sorting_StepDef.the_user_launched_the_chrome()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 4285949301,
+              "duration": 11691217499,
               "status": "passed"
             },
             "line": 21,
             "name": "the user opens the Opencart page",
             "match": {
-              "location": "SortingSD.the_user_opens_the_Opencart_page()"
+              "location": "Sorting_StepDef.the_user_opens_the_Opencart_page()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 2139858599,
+              "duration": 3260015300,
               "status": "passed"
             },
             "line": 22,
             "name": "the user select desktop iccon",
             "match": {
-              "location": "SortingSD.the_user_select_desktop_iccon()"
+              "location": "Sorting_StepDef.the_user_select_desktop_iccon()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 6630887900,
+              "duration": 6552525799,
               "status": "passed"
             },
             "line": 23,
             "name": "the user selects the type of sorting",
             "match": {
-              "location": "SortingSD.the_user_selects_the_type_of_sorting()"
+              "location": "Sorting_StepDef.the_user_selects_the_type_of_sorting()"
             },
             "keyword": "And "
           }
@@ -204,49 +204,49 @@
         "steps": [
           {
             "result": {
-              "duration": 5770160700,
+              "duration": 5567412100,
               "status": "passed"
             },
             "line": 27,
             "name": "the user launched the browser",
             "match": {
-              "location": "StoretoExcelSD.the_user_launched_the_browser()"
+              "location": "StoreDetails_StepDef.the_user_launched_the_browser()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 4222694000,
+              "duration": 5547419401,
               "status": "passed"
             },
             "line": 28,
             "name": "the user opens the Opencart webpage",
             "match": {
-              "location": "StoretoExcelSD.the_user_opens_the_Opencart_webpage()"
+              "location": "StoreDetails_StepDef.the_user_opens_the_Opencart_webpage()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 10463682000,
+              "duration": 11372318100,
               "status": "passed"
             },
             "line": 29,
             "name": "the user select desktop button",
             "match": {
-              "location": "StoretoExcelSD.the_user_select_desktop_button()"
+              "location": "StoreDetails_StepDef.the_user_select_desktop_button()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 6671745200,
+              "duration": 6712515601,
               "status": "passed"
             },
             "line": 30,
             "name": "the user adds the details of items to excelsheet",
             "match": {
-              "location": "StoretoExcelSD.the_user_adds_the_details_of_items_to_excelsheet()"
+              "location": "StoreDetails_StepDef.the_user_adds_the_details_of_items_to_excelsheet()"
             },
             "keyword": "And "
           }
@@ -268,49 +268,49 @@
         "steps": [
           {
             "result": {
-              "duration": 5794864500,
+              "duration": 5618772200,
               "status": "passed"
             },
             "line": 34,
             "name": "the user launched the chrome webbrowser",
             "match": {
-              "location": "WishlistSD.the_user_launched_the_chrome_webbrowser()"
+              "location": "Wishlist_StepDef.the_user_launched_the_chrome_webbrowser()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 5093830300,
+              "duration": 6157650401,
               "status": "passed"
             },
             "line": 35,
             "name": "the user opens the OpenCart page",
             "match": {
-              "location": "WishlistSD.the_user_opens_the_OpenCart_page()"
+              "location": "Wishlist_StepDef.the_user_opens_the_OpenCart_page()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 25487078300,
+              "duration": 26156237501,
               "status": "passed"
             },
             "line": 36,
             "name": "the user select desktop buttonclick",
             "match": {
-              "location": "WishlistSD.the_user_select_desktop_buttonclick()"
+              "location": "Wishlist_StepDef.the_user_select_desktop_buttonclick()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 18411854600,
+              "duration": 20288988000,
               "status": "passed"
             },
             "line": 37,
             "name": "the item to wishlist",
             "match": {
-              "location": "WishlistSD.the_item_to_wishlist()"
+              "location": "Wishlist_StepDef.the_item_to_wishlist()"
             },
             "keyword": "And "
           }

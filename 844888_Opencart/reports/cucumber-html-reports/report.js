@@ -47,31 +47,31 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "SelectingItemSD.the_user_launched_the_chrome_browser()"
+  "location": "SelectingItem_StepDef.the_user_launched_the_chrome_browser()"
 });
 formatter.result({
-  "duration": 7341592300,
+  "duration": 6925825500,
   "status": "passed"
 });
 formatter.match({
-  "location": "SelectingItemSD.the_user_opens_the_Opencart_homepage_and_login()"
+  "location": "SelectingItem_StepDef.the_user_opens_the_Opencart_homepage_and_login()"
 });
 formatter.result({
-  "duration": 4928483400,
+  "duration": 10772826300,
   "status": "passed"
 });
 formatter.match({
-  "location": "SelectingItemSD.the_user_select_desktop()"
+  "location": "SelectingItem_StepDef.the_user_select_desktop()"
 });
 formatter.result({
-  "duration": 2564296300,
+  "duration": 3259492499,
   "status": "passed"
 });
 formatter.match({
-  "location": "SelectingItemSD.the_user_select_on_the_item()"
+  "location": "SelectingItem_StepDef.the_user_select_on_the_item()"
 });
 formatter.result({
-  "duration": 9630432301,
+  "duration": 11323723601,
   "status": "passed"
 });
 formatter.scenario({
@@ -109,31 +109,31 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "ShowCountSD.the_user_launched_the_chromebrowser()"
+  "location": "ShowCount_StepDef.the_user_launched_the_chromebrowser()"
 });
 formatter.result({
-  "duration": 5757801201,
+  "duration": 5623325900,
   "status": "passed"
 });
 formatter.match({
-  "location": "ShowCountSD.the_user_opens_the_Opencart_application()"
+  "location": "ShowCount_StepDef.the_user_opens_the_Opencart_application()"
 });
 formatter.result({
-  "duration": 4662473399,
+  "duration": 8273413201,
   "status": "passed"
 });
 formatter.match({
-  "location": "ShowCountSD.the_user_select_desktop_icon()"
+  "location": "ShowCount_StepDef.the_user_select_desktop_icon()"
 });
 formatter.result({
-  "duration": 2215968700,
+  "duration": 3736475300,
   "status": "passed"
 });
 formatter.match({
-  "location": "ShowCountSD.the_user_selects_the_number()"
+  "location": "ShowCount_StepDef.the_user_selects_the_number()"
 });
 formatter.result({
-  "duration": 6642050701,
+  "duration": 6396285401,
   "status": "passed"
 });
 formatter.scenario({
@@ -171,31 +171,31 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "SortingSD.the_user_launched_the_chrome()"
+  "location": "Sorting_StepDef.the_user_launched_the_chrome()"
 });
 formatter.result({
-  "duration": 5690049100,
+  "duration": 5692455501,
   "status": "passed"
 });
 formatter.match({
-  "location": "SortingSD.the_user_opens_the_Opencart_page()"
+  "location": "Sorting_StepDef.the_user_opens_the_Opencart_page()"
 });
 formatter.result({
-  "duration": 4285949301,
+  "duration": 11691217499,
   "status": "passed"
 });
 formatter.match({
-  "location": "SortingSD.the_user_select_desktop_iccon()"
+  "location": "Sorting_StepDef.the_user_select_desktop_iccon()"
 });
 formatter.result({
-  "duration": 2139858599,
+  "duration": 3260015300,
   "status": "passed"
 });
 formatter.match({
-  "location": "SortingSD.the_user_selects_the_type_of_sorting()"
+  "location": "Sorting_StepDef.the_user_selects_the_type_of_sorting()"
 });
 formatter.result({
-  "duration": 6630887900,
+  "duration": 6552525799,
   "status": "passed"
 });
 formatter.scenario({
@@ -233,31 +233,31 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "StoretoExcelSD.the_user_launched_the_browser()"
+  "location": "StoreDetails_StepDef.the_user_launched_the_browser()"
 });
 formatter.result({
-  "duration": 5770160700,
+  "duration": 5567412100,
   "status": "passed"
 });
 formatter.match({
-  "location": "StoretoExcelSD.the_user_opens_the_Opencart_webpage()"
+  "location": "StoreDetails_StepDef.the_user_opens_the_Opencart_webpage()"
 });
 formatter.result({
-  "duration": 4222694000,
+  "duration": 5547419401,
   "status": "passed"
 });
 formatter.match({
-  "location": "StoretoExcelSD.the_user_select_desktop_button()"
+  "location": "StoreDetails_StepDef.the_user_select_desktop_button()"
 });
 formatter.result({
-  "duration": 10463682000,
+  "duration": 11372318100,
   "status": "passed"
 });
 formatter.match({
-  "location": "StoretoExcelSD.the_user_adds_the_details_of_items_to_excelsheet()"
+  "location": "StoreDetails_StepDef.the_user_adds_the_details_of_items_to_excelsheet()"
 });
 formatter.result({
-  "duration": 6671745200,
+  "duration": 6712515601,
   "status": "passed"
 });
 formatter.scenario({
@@ -295,31 +295,31 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "WishlistSD.the_user_launched_the_chrome_webbrowser()"
+  "location": "Wishlist_StepDef.the_user_launched_the_chrome_webbrowser()"
 });
 formatter.result({
-  "duration": 5794864500,
+  "duration": 5618772200,
   "status": "passed"
 });
 formatter.match({
-  "location": "WishlistSD.the_user_opens_the_OpenCart_page()"
+  "location": "Wishlist_StepDef.the_user_opens_the_OpenCart_page()"
 });
 formatter.result({
-  "duration": 5093830300,
+  "duration": 6157650401,
   "status": "passed"
 });
 formatter.match({
-  "location": "WishlistSD.the_user_select_desktop_buttonclick()"
+  "location": "Wishlist_StepDef.the_user_select_desktop_buttonclick()"
 });
 formatter.result({
-  "duration": 25487078300,
+  "duration": 26156237501,
   "status": "passed"
 });
 formatter.match({
-  "location": "WishlistSD.the_item_to_wishlist()"
+  "location": "Wishlist_StepDef.the_item_to_wishlist()"
 });
 formatter.result({
-  "duration": 18411854600,
+  "duration": 20288988000,
   "status": "passed"
 });
 });
