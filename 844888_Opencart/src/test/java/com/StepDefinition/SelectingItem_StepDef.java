@@ -6,7 +6,7 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
-public class SelectingItemSD {
+public class SelectingItem_StepDef {
 	//Creating object for the page class
 	SelectingItem s= new SelectingItem();
 

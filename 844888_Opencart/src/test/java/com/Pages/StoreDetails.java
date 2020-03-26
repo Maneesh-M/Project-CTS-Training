@@ -9,7 +9,7 @@ import org.openqa.selenium.TakesScreenshot;
 import baseClass.Wrapper;
 import excelutility.WritingToExcel;
 
-public class StoretoExcel extends Wrapper{
+public class StoreDetails extends Wrapper{
 //Defining web elements
 	By desktop=By.xpath("//*[@id=\"menu\"]/div[2]/ul/li[1]/a");
 	By all=By.xpath("//*[@id=\"menu\"]/div[2]/ul/li[1]/div/a");
