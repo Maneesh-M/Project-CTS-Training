@@ -47,7 +47,6 @@ public class Sorting extends Wrapper {
 		act.sendKeys(Keys.ARROW_DOWN).build().perform();
 		act.sendKeys(Keys.ARROW_DOWN).build().perform();
 		act.sendKeys(Keys.ARROW_DOWN).build().perform();
-		act.sendKeys(Keys.ARROW_DOWN).build().perform();
 		act.sendKeys(Keys.ENTER).build().perform();
 	}
 

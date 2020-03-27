@@ -50,28 +50,28 @@ formatter.match({
   "location": "SelectingItem_StepDef.the_user_launched_the_chrome_browser()"
 });
 formatter.result({
-  "duration": 9419986700,
+  "duration": 7298379500,
   "status": "passed"
 });
 formatter.match({
   "location": "SelectingItem_StepDef.the_user_opens_the_Opencart_homepage_and_login()"
 });
 formatter.result({
-  "duration": 7260878200,
+  "duration": 5370761800,
   "status": "passed"
 });
 formatter.match({
   "location": "SelectingItem_StepDef.the_user_select_desktop()"
 });
 formatter.result({
-  "duration": 3685826000,
+  "duration": 3254218100,
   "status": "passed"
 });
 formatter.match({
   "location": "SelectingItem_StepDef.the_user_select_on_the_item()"
 });
 formatter.result({
-  "duration": 14906284500,
+  "duration": 11881631400,
   "status": "passed"
 });
 formatter.scenario({
@@ -112,28 +112,28 @@ formatter.match({
   "location": "ShowCount_StepDef.the_user_launched_the_chromebrowser()"
 });
 formatter.result({
-  "duration": 6102055400,
+  "duration": 5602166700,
   "status": "passed"
 });
 formatter.match({
   "location": "ShowCount_StepDef.the_user_opens_the_Opencart_application()"
 });
 formatter.result({
-  "duration": 6653954500,
+  "duration": 6574713600,
   "status": "passed"
 });
 formatter.match({
   "location": "ShowCount_StepDef.the_user_select_desktop_icon()"
 });
 formatter.result({
-  "duration": 2982937000,
+  "duration": 5935679400,
   "status": "passed"
 });
 formatter.match({
   "location": "ShowCount_StepDef.the_user_selects_the_number()"
 });
 formatter.result({
-  "duration": 7524039900,
+  "duration": 6636655800,
   "status": "passed"
 });
 formatter.scenario({
@@ -174,28 +174,28 @@ formatter.match({
   "location": "Sorting_StepDef.the_user_launched_the_chrome()"
 });
 formatter.result({
-  "duration": 6073670800,
+  "duration": 5769967400,
   "status": "passed"
 });
 formatter.match({
   "location": "Sorting_StepDef.the_user_opens_the_Opencart_page()"
 });
 formatter.result({
-  "duration": 6564126700,
+  "duration": 14952658500,
   "status": "passed"
 });
 formatter.match({
   "location": "Sorting_StepDef.the_user_select_desktop_iccon()"
 });
 formatter.result({
-  "duration": 4428412300,
+  "duration": 3787251900,
   "status": "passed"
 });
 formatter.match({
   "location": "Sorting_StepDef.the_user_selects_the_type_of_sorting()"
 });
 formatter.result({
-  "duration": 7667662000,
+  "duration": 6593401600,
   "status": "passed"
 });
 formatter.scenario({
@@ -236,28 +236,28 @@ formatter.match({
   "location": "StoreDetails_StepDef.the_user_launched_the_browser()"
 });
 formatter.result({
-  "duration": 5942860500,
+  "duration": 5522249500,
   "status": "passed"
 });
 formatter.match({
   "location": "StoreDetails_StepDef.the_user_opens_the_Opencart_webpage()"
 });
 formatter.result({
-  "duration": 6148088100,
+  "duration": 7223750100,
   "status": "passed"
 });
 formatter.match({
   "location": "StoreDetails_StepDef.the_user_select_desktop_button()"
 });
 formatter.result({
-  "duration": 12359665100,
+  "duration": 15804997800,
   "status": "passed"
 });
 formatter.match({
   "location": "StoreDetails_StepDef.the_user_adds_the_details_of_items_to_excelsheet()"
 });
 formatter.result({
-  "duration": 7950855000,
+  "duration": 6989971500,
   "status": "passed"
 });
 formatter.scenario({
@@ -298,28 +298,28 @@ formatter.match({
   "location": "Wishlist_StepDef.the_user_launched_the_chrome_webbrowser()"
 });
 formatter.result({
-  "duration": 6019416100,
+  "duration": 5612095600,
   "status": "passed"
 });
 formatter.match({
   "location": "Wishlist_StepDef.the_user_opens_the_OpenCart_page()"
 });
 formatter.result({
-  "duration": 6544430800,
+  "duration": 13707130800,
   "status": "passed"
 });
 formatter.match({
   "location": "Wishlist_StepDef.the_user_select_desktop_buttonclick()"
 });
 formatter.result({
-  "duration": 26853608200,
+  "duration": 42100710500,
   "status": "passed"
 });
 formatter.match({
   "location": "Wishlist_StepDef.the_item_to_wishlist()"
 });
 formatter.result({
-  "duration": 20081905100,
+  "duration": 21987533000,
   "status": "passed"
 });
 });
