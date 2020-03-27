@@ -32,9 +32,11 @@ public class Sorting_StepDef {
 	public void the_user_selects_the_type_of_sorting() throws Throwable {
 		// Sorting the product and taking screenshot
 		sg.sortingproduct();
+		//To give a delay of 3s
 		Thread.sleep(3000);
 		//To take screenshot
 		sg.screenshot("src\\test\\resources\\Screenshot\\shot3.png");
+		//To give a delay of 2s
 		Thread.sleep(2000);
 		//To close the browser
 		sg.closebrowser();

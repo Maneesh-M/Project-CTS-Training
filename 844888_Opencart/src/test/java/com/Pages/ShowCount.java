@@ -44,7 +44,9 @@ public class ShowCount extends Wrapper {
 	
 //To select the Quantity
 	public void showcount(){
+		//Finding the web element
 		WebElement we=driver.findElement(count);
+		//Clicking on the web element
 		we.click();
 		//Actions class for keyboard and mouse actions
 		Actions act=new Actions(driver);

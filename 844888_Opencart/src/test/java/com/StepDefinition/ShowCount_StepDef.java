@@ -32,9 +32,11 @@ public class ShowCount_StepDef {
 	public void the_user_selects_the_number() throws Throwable {
 		// To select Quantity and take screenshot
 		sc.showcount();
+		//To give a delay of 3s
 		Thread.sleep(3000);
 		//To take screenshot
 		sc.screenshot("src\\test\\resources\\Screenshot\\shot2.png");
+		//To give a delay of 2s
 		Thread.sleep(2000);
 		//To close the browser
 		sc.closebrowser();

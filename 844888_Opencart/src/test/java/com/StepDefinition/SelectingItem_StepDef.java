@@ -33,9 +33,11 @@ public class SelectingItem_StepDef {
 	public void the_user_select_on_the_item() throws Throwable {
 		// Selecting the product
 		s.pdct();
+		//To give a delay of 3s
 		Thread.sleep(3000);
 		//To take screenshot
 		s.screenshot("src\\test\\resources\\Screenshot\\shot1.png");
+		//To give a delay of 3s
 		Thread.sleep(3000);
 		//To close the browser
 		s.closebrowser();

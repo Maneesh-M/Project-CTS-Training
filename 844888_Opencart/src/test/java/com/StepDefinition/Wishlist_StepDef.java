@@ -26,7 +26,7 @@ public class Wishlist_StepDef {
 	public void the_user_select_desktop_buttonclick() throws Throwable {
 		//Login user
 		wl.loginuser();
-		//Providing delay
+		//Providing delay of 2s
 		Thread.sleep(2000);
 		//Clicking desktop tab
 		wl.selectdesktop();
@@ -36,9 +36,11 @@ public class Wishlist_StepDef {
 	public void the_item_to_wishlist() throws Throwable {
 		// Adding to Wishlist
 		wl.wishlist();
+		//To give a delay of 3s
 		Thread.sleep(3000);
 		//Taking screenshot
 		wl.screenshot("src\\test\\resources\\Screenshot\\shot5.png");
+		//To give a delay of 3s
 		Thread.sleep(3000);
 		//Closing the browser
 		wl.closebrowser();

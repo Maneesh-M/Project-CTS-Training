@@ -26,6 +26,7 @@ public class StoreDetails_StepDef {
 	public void the_user_select_desktop_button() throws Throwable {
 		// Selecting desktop tab
 		sd.selectdesktop();
+		//To give a delay of 2s
 		Thread.sleep(2000);
 		//To take screenshot
 		sd.screenshot("src\\test\\resources\\Screenshot\\shot4.png");
@@ -35,6 +36,7 @@ public class StoreDetails_StepDef {
 	public void the_user_adds_the_details_of_items_to_excelsheet() throws Throwable {
 		// Writing the data into Excel 
 		sd.exceldata();
+		//To give a delay of 3s
 		Thread.sleep(3000);
 		//To close the browser
 		sd.closebrowser();
