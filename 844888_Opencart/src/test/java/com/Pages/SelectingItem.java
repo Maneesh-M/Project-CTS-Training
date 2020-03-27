@@ -18,6 +18,7 @@ public class SelectingItem extends Wrapper {
 	public void launchApplication() throws IOException, InterruptedException{ 
 		//To launch chrome browser
 		launchBrowser("chrome");
+		//To provide delay
 		Thread.sleep(2000);
 	}
 	
@@ -25,28 +26,36 @@ public class SelectingItem extends Wrapper {
 	public void Url(){
 		//To go to the site
 		driver.get("http://opencart.abstracta.us/");
+		//To get the title of the page
 		System.out.println(driver.getTitle());
 	}
 	
 //Selecting desktop tab
 	public void selectdesktop(){
+		//Clicking desktop
 		driver.findElement(desktop).click();
+		//Clicking show all desktops
 		driver.findElement(all).click();
 	}
 	
 //Clicking on a product 
 	public void pdct(){
+		//Clicking on a product
 		driver.findElement(pdt).click();
 	}
 
 //Taking Screenshot
 	public void screenshot(String path) throws IOException {
+		//Creating a object for screenshot class
 		TakesScreenshot ts= (TakesScreenshot)driver;
+		//Declaring file name and output file type
 		File sr=ts.getScreenshotAs(OutputType.FILE);
+		//Copying the file to a new file
 		FileUtils.copyFile(sr, new File(path));
 	}
 //Closing the browser
 	public void closebrowser() {
+		//to close the browser
 		driver.close();
 	}
 }

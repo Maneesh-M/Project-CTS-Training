@@ -30,35 +30,49 @@ public class Sorting extends Wrapper {
 	public void url() {
 		//To go to the site
 		driver.get("http://opencart.abstracta.us/");
+		//To get the title of the page
 		System.out.println(driver.getTitle());
 	}
 
 //To select desktop tab
 	public void selectdesktop(){
+		//Click desktop
 		driver.findElement(desktop).click();
+		//Click show all desktop 
 		driver.findElement(all).click();
 	}
 
 //Sorting the products
 	public void sortingproduct(){
+		//Identifying web element
 		WebElement we=driver.findElement(sort);
+		//Clicking web element
 		we.click();
+		//Actions class for keyboard and mouse actions
 		Actions act=new Actions(driver);
+		//Clicking down arrow key
 		act.sendKeys(Keys.ARROW_DOWN).build().perform();
+		//Clicking down arrow key
 		act.sendKeys(Keys.ARROW_DOWN).build().perform();
+		//Clicking down arrow key
 		act.sendKeys(Keys.ARROW_DOWN).build().perform();
+		//Clicking on current element
 		act.sendKeys(Keys.ENTER).build().perform();
 	}
 
 //Taking screenshot
 	public void screenshot(String path) throws IOException {
+		//Creating object for screenshot class
 		TakesScreenshot ts= (TakesScreenshot)driver;
+		//Declaring file name and output file type
 		File sr=ts.getScreenshotAs(OutputType.FILE);
+		//Copying the file to a new file
 		FileUtils.copyFile(sr, new File(path));
 	}
 
 //Close browser
 	public void closebrowser() {
+		//to close the browser
 		driver.close();
 	}
 

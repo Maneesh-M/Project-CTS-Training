@@ -24,7 +24,7 @@ public class Wishlist_StepDef {
 
 	@Then("^the user select desktop buttonclick$")
 	public void the_user_select_desktop_buttonclick() throws Throwable {
-		// Login user
+		//Login user
 		wl.loginuser();
 		Thread.sleep(2000);
 		//Clicking desktop tab
@@ -39,6 +39,7 @@ public class Wishlist_StepDef {
 		//Taking screenshot
 		wl.screenshot("src\\test\\resources\\Screenshot\\shot5.png");
 		Thread.sleep(3000);
+		//Closing the browser
 		wl.closebrowser();
 	}
 }

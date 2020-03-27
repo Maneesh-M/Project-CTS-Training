@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7298379500,
+              "duration": 7493518700,
               "status": "passed"
             },
             "line": 6,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 5370761800,
+              "duration": 5858553100,
               "status": "passed"
             },
             "line": 7,
@@ -36,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 3254218100,
+              "duration": 2614260400,
               "status": "passed"
             },
             "line": 8,
@@ -48,7 +48,7 @@
           },
           {
             "result": {
-              "duration": 11881631400,
+              "duration": 9722571900,
               "status": "passed"
             },
             "line": 9,
@@ -76,7 +76,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5602166700,
+              "duration": 5704991600,
               "status": "passed"
             },
             "line": 13,
@@ -88,7 +88,7 @@
           },
           {
             "result": {
-              "duration": 6574713600,
+              "duration": 3943199400,
               "status": "passed"
             },
             "line": 14,
@@ -100,7 +100,7 @@
           },
           {
             "result": {
-              "duration": 5935679400,
+              "duration": 2920874900,
               "status": "passed"
             },
             "line": 15,
@@ -112,7 +112,7 @@
           },
           {
             "result": {
-              "duration": 6636655800,
+              "duration": 7138394700,
               "status": "passed"
             },
             "line": 16,
@@ -132,15 +132,15 @@
       },
       {
         "line": 19,
-        "name": "sorting the number of elements",
+        "name": "sorting the number of products",
         "description": "",
-        "id": "opencart-application;sorting-the-number-of-elements",
+        "id": "opencart-application;sorting-the-number-of-products",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 5769967400,
+              "duration": 6071546000,
               "status": "passed"
             },
             "line": 20,
@@ -152,7 +152,7 @@
           },
           {
             "result": {
-              "duration": 14952658500,
+              "duration": 4273265900,
               "status": "passed"
             },
             "line": 21,
@@ -164,7 +164,7 @@
           },
           {
             "result": {
-              "duration": 3787251900,
+              "duration": 2735416700,
               "status": "passed"
             },
             "line": 22,
@@ -176,7 +176,7 @@
           },
           {
             "result": {
-              "duration": 6593401600,
+              "duration": 6606265500,
               "status": "passed"
             },
             "line": 23,
@@ -196,15 +196,15 @@
       },
       {
         "line": 26,
-        "name": "storing the details to excell sheet",
+        "name": "storing the details to excel sheet",
         "description": "",
-        "id": "opencart-application;storing-the-details-to-excell-sheet",
+        "id": "opencart-application;storing-the-details-to-excel-sheet",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 5522249500,
+              "duration": 5560373700,
               "status": "passed"
             },
             "line": 27,
@@ -216,7 +216,7 @@
           },
           {
             "result": {
-              "duration": 7223750100,
+              "duration": 4858602600,
               "status": "passed"
             },
             "line": 28,
@@ -228,7 +228,7 @@
           },
           {
             "result": {
-              "duration": 15804997800,
+              "duration": 10499015500,
               "status": "passed"
             },
             "line": 29,
@@ -240,7 +240,7 @@
           },
           {
             "result": {
-              "duration": 6989971500,
+              "duration": 6869961700,
               "status": "passed"
             },
             "line": 30,
@@ -268,7 +268,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5612095600,
+              "duration": 5515879100,
               "status": "passed"
             },
             "line": 34,
@@ -280,7 +280,7 @@
           },
           {
             "result": {
-              "duration": 13707130800,
+              "duration": 7326724900,
               "status": "passed"
             },
             "line": 35,
@@ -292,7 +292,7 @@
           },
           {
             "result": {
-              "duration": 42100710500,
+              "duration": 25999319100,
               "status": "passed"
             },
             "line": 36,
@@ -304,7 +304,7 @@
           },
           {
             "result": {
-              "duration": 21987533000,
+              "duration": 19958753200,
               "status": "passed"
             },
             "line": 37,

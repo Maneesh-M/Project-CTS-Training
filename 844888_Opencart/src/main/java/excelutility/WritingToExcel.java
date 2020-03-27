@@ -15,7 +15,9 @@ public class WritingToExcel {
 	@SuppressWarnings("resource")
 	//Method to write in excel
 	public void wr_excel(int r, int c, String data) {
+		//Declaring file name
 		String filename = "src/test/resources\\Testdata\\exceloc.xlsx";
+		//Declaring sheetname
 		String sheetname = "Sheet1";
 		File f = new File(filename);
 		try {

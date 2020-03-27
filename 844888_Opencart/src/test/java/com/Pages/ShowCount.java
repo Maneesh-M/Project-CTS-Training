@@ -22,6 +22,7 @@ public class ShowCount extends Wrapper {
 	public void launchApplication() throws IOException, InterruptedException{ 
 	//To launch chrome browser
 	launchBrowser("chrome");
+	//To make delay
 	Thread.sleep(2000);
 	}
 	
@@ -29,12 +30,15 @@ public class ShowCount extends Wrapper {
 	public void url(){
 		//To go to the site 
 		driver.get("http://opencart.abstracta.us/");
+		//To get the title of the page
 		System.out.println(driver.getTitle());
 	}
 	
 //Select desktop tab
 	public void selectdesktop(){
+		//Clicking desktop
 		driver.findElement(desktop).click();
+		//Clicking see all desktop
 		driver.findElement(all).click();
 	}
 	
@@ -42,15 +46,21 @@ public class ShowCount extends Wrapper {
 	public void showcount(){
 		WebElement we=driver.findElement(count);
 		we.click();
+		//Actions class for keyboard and mouse actions
 		Actions act=new Actions(driver);
+		//To move the selection
 		act.sendKeys(Keys.ARROW_DOWN).build().perform();
+		//For selecting a current element
 		act.sendKeys(Keys.ENTER).build().perform();
 	}
 	
 //Taking screenshot
 	public void screenshot(String path) throws IOException {
+		//Creating object for screenshot class
 		TakesScreenshot ts= (TakesScreenshot)driver;
+		//Declaring file name and output file type
 		File sr=ts.getScreenshotAs(OutputType.FILE);
+		//Copying the file to a new file
 		FileUtils.copyFile(sr, new File(path));
 	}
 	

@@ -34,8 +34,10 @@ public class SelectingItem_StepDef {
 		// Selecting the product
 		s.pdct();
 		Thread.sleep(3000);
+		//To take screenshot
 		s.screenshot("src\\test\\resources\\Screenshot\\shot1.png");
 		Thread.sleep(3000);
+		//To close the browser
 		s.closebrowser();
 	}
 }

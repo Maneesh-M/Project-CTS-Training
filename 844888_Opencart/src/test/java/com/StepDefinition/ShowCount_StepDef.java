@@ -33,8 +33,10 @@ public class ShowCount_StepDef {
 		// To select Quantity and take screenshot
 		sc.showcount();
 		Thread.sleep(3000);
+		//To take screenshot
 		sc.screenshot("src\\test\\resources\\Screenshot\\shot2.png");
 		Thread.sleep(2000);
+		//To close the browser
 		sc.closebrowser();
 	}
 }

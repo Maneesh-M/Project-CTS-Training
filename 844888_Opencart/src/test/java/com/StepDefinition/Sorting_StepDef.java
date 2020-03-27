@@ -33,8 +33,10 @@ public class Sorting_StepDef {
 		// Sorting the product and taking screenshot
 		sg.sortingproduct();
 		Thread.sleep(3000);
+		//To take screenshot
 		sg.screenshot("src\\test\\resources\\Screenshot\\shot3.png");
 		Thread.sleep(2000);
+		//To close the browser
 		sg.closebrowser();
 	}
 }

@@ -16,11 +16,13 @@ public class Wrapper {
 		if(browser.equalsIgnoreCase("chrome")){
 			
 			System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\Driver\\chromedriver_v80.exe");
+			//Declaring driver
 			driver= new ChromeDriver();
 		}
 		//For firefox browser
 		else if(browser.equals("firefox")){
 			System.setProperty("webdriver.gecko.driver", "src\\test\\resources\\Driver\\geckodriver.exe");
+			//Declaring the driver
 			driver = new FirefoxDriver();
 		}
 		//Maximizing the browser 
