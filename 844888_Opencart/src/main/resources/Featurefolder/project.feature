@@ -16,14 +16,14 @@ Feature: OpenCart Application
     And the user selects the number
 
   @TC03_Sorting
-  Scenario: sorting the number of elements
+  Scenario: sorting the number of products
     Given the user launched the chrome
     When the user opens the Opencart page
     Then the user select desktop iccon
     And the user selects the type of sorting
 
   @TC04_Storetoexcelsheet
-  Scenario: storing the details to excell sheet
+  Scenario: storing the details to excel sheet
     Given the user launched the browser
     When the user opens the Opencart webpage
     Then the user select desktop button
