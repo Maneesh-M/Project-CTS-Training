@@ -30,7 +30,7 @@ public class ShowCount_StepDef {
 
 	@Then("^the user selects the number$")
 	public void the_user_selects_the_number() throws Throwable {
-		// To select Quantity and take screenshot
+		// To select Quantity 
 		sc.showcount();
 		//To give a delay of 3s
 		Thread.sleep(3000);
