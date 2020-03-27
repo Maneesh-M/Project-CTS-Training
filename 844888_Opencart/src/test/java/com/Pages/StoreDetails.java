@@ -14,6 +14,8 @@ public class StoreDetails extends Wrapper{
 	By desktop=By.xpath("//*[@id=\"menu\"]/div[2]/ul/li[1]/a");
 	By all=By.xpath("//*[@id=\"menu\"]/div[2]/ul/li[1]/div/a");
 	By pdt=By.xpath("//*[@id=\"content\"]/div[4]/div[6]/div/div[1]/a/img");
+	By pname=By.xpath("//div[@class='col-sm-4']//child::h1");
+	By pdetails=By.xpath("//div[@class='cpt_product_description ']//p[2]");
 	
 //To launch the application
 	public void launchApplication() throws IOException, InterruptedException{
@@ -38,12 +40,15 @@ public class StoreDetails extends Wrapper{
 	}
 	
 //Writing to Excel
-	public void exceldata(){
-		String a=driver.findElement(By.xpath("//*[@id=\"tab-description\"]/div/div/p[2]")).getText();
+	public void exceldata() throws InterruptedException{
+		String a=driver.findElement(pname).getText();
 		//Creating object for excel Class
 		WritingToExcel e=new WritingToExcel();
 		//Calling the method using the object
 		e.wr_excel(0, 0, a);
+		Thread.sleep(2000);
+		String b=driver.findElement(pdetails).getText();
+		e.wr_excel(1, 0, b);
 	}
 	
 //Taking screenshot
