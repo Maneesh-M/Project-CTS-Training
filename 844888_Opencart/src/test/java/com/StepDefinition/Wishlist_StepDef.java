@@ -26,6 +26,7 @@ public class Wishlist_StepDef {
 	public void the_user_select_desktop_buttonclick() throws Throwable {
 		//Login user
 		wl.loginuser();
+		//Providing delay
 		Thread.sleep(2000);
 		//Clicking desktop tab
 		wl.selectdesktop();
